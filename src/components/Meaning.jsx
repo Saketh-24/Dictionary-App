@@ -9,14 +9,17 @@ function Meaning({searchResult}) {
         {searchResult[0].meanings[0].partOfSpeech}  
         </div>
         <div className='Meanings'>
+        <h1>Meanings</h1>
         <div className="definitions">
-            {
+            <ol>        
+                {
                searchResult[0].meanings[0].definitions.map((element,index)=>
                 (
-                    <div className='definition' key={index}>{element.definition}</div>
+                    <li className='definition' key={index}>{element.definition}</li>
                 )   
                 )
             }
+            </ol>
         </div>
         </div>
     </div>

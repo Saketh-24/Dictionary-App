@@ -1,0 +1,30 @@
+.Phonetic
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
+    background-color: #D3D9D4;
+    padding: 20px 40px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+h1{
+    color: #124E66;
+}
+
+.left-side{
+    flex: 1;
+}
+
+.right-side
+{
+    flex: 3;
+}
+
+audio{
+    width: 620px;
+}
