@@ -24,7 +24,7 @@ function Phonetic({search,searchResult}) {
   return (
     <div className='Phonetic'>
         <div className='left-side'>
-            <h1>{keyword}</h1>
+            <h1 className='searchedfor'>{keyword}</h1>
             {searchResult[0].phonetic}
         </div>
         <div className="right-side">

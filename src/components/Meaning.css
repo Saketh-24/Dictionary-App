@@ -17,6 +17,13 @@
     
 }
 
+span{
+    font-size: x-large;
+    padding-right: 25px;
+    color: #124E66;
+    font-weight: 700;
+}
+
 .partsofspeech
 {
     width: 60vw;

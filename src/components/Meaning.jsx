@@ -6,10 +6,11 @@ function Meaning({searchResult}) {
   return (
     <div>
         <div className='partsofspeech'>
+        <span>Parts Of Speech</span>
         {searchResult[0].meanings[0].partOfSpeech}  
         </div>
         <div className='Meanings'>
-        <h1>Meanings</h1>
+        <h1 style={{color: "#124E66"}}>Meanings</h1>
         <div className="definitions">
             <ol>        
                 {
